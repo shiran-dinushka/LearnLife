@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+#sidebar.active{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 64px;
+    left: 0;
+    border-top-right-radius:15%;
+    transition:all 0.4s;
+    
+}
+
+#user_detail{
+    border-top-right-radius:15%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+
+#sidebar.active #user_detail img{
+    margin-left: 5px;
+    width: 100px;
+}
+
+
+#sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 64px;
+    left: 0;
+    border-top-right-radius:15%;
+    left: -200px;
+    transition:all 0.4s;
+}
+
+#sidebar.active li span,#sidebar.active #setting span{
+    display: inline-block;
+}
+
+#sidebar li span,#sidebar #setting span{
+    display: none;
+}
+
+#sidebar li a,#sidebar #setting i{
+    margin-left: 195px;
+    font-size: 25px;
+
+}
+
+#sidebar.active li a{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+#sidebar.active #setting i{
+    margin-left:0px;
+    font-size: 18px;
+}
+
+#sidebar.active #exit i{
+    margin-left:18px;
+    font-size: 18px;
+}
+
+#exit i{
+    margin-left:195px;
+    font-size: 25px;
+}
+
+ #user_detail img{
+
+    width:40px;
+    margin-left: 189px;
+
+}
+
+#page-content.active{
+   
+
+    width: calc(100%-200px);
+    margin-left: 260px;
+    
+ 
+    
+}
+
+#page-content{
+    width: calc(100%-50px);
+    margin-left: 55px;
+    transition:0.4s ;
+}
+
+#noChap{
+    border-radius: 10px;
+}
+#noChap h3{
+    font-size: 35px;
+
+}
+
+
+#progressbars .box .charts .percent{
+    font-size: 40px;
+}
+
+#progressbars .box .charts{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+    color: #000;
+}
+
+#progressbars .box canvas{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#progressbars .box p{
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+ 
